@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:cadetblue
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input-container{
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.input-container input[type="text"]{
+    width: 70%;
+}
+.input-container input[type="button"]{
+    background-color:rgb(44, 99, 113);
+    color: #fff;
+    font-weight: bold; 
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+.input-container input[type="button"]:hover{
+    background-color: rgb(26, 143, 143);
+}
+ul{
+    width: 100%;
+    max-width: 450px;
+    
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+    border: 1px solid rgb(34, 54, 58);
+    border-radius: 8px;
+    margin-block: 12px;
+    padding: 6px 12px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.5s;
+}
+ul li:hover{
+    background-color: rgb(162, 190, 185);
+} 
+ul li p{
+    flex-grow: 1;
+    padding: 4px;
+}
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+}
+.delete{
+    color: rgb(232, 79, 79);
+}
+.edit{
+    color: rgb(54, 201, 54);
+}
